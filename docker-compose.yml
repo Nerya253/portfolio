@@ -3,7 +3,7 @@ version: '3.8'
 services:
   client:
     # השם של האימג' שלך
-    image: ${{ secrets.DOCKERHUB_USERNAME }}/devops-cd-demo:latest
+    image: nerya177944/devops-cd-demo:latest
     container_name: devops-cd-demo
     restart: always
     ports:
