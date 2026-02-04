@@ -65,7 +65,7 @@ const portfolioData = {
       title: 'CRM',
       description: 'Customer relationship management system.',
       tags: ['React', 'Node.js', 'MongoDB', 'CSS'],
-      links: { github: 'https://github.com/Nerya253/CRM', demo: 'http:// ' },
+      links: { github: 'https://github.com/Atshmuel/s-bin', demo: 'https://s-bins.duckdns.org' },
       status: 'done',
     },
     {
