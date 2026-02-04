@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  client:
+    # השם של האימג' שלך
+    image: ${{ secrets.DOCKERHUB_USERNAME }}/devops-cd-demo:latest
+    container_name: portfolio-client
+    restart: always
+    ports:
+      - '80:80'
