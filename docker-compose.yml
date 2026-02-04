@@ -4,7 +4,7 @@ services:
   client:
     # השם של האימג' שלך
     image: ${{ secrets.DOCKERHUB_USERNAME }}/devops-cd-demo:latest
-    container_name: portfolio-client
+    container_name: devops-cd-demo
     restart: always
     ports:
       - '80:80'
