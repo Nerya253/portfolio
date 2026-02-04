@@ -30,7 +30,8 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-cd-demo:latest
-          platforms: linux/arm64
+          platforms: linux/arm64,linux/amd64
+          provenance: false
 
   deploy:
     runs-on: ubuntu-latest
