@@ -64,14 +64,14 @@ const portfolioData = {
     {
       title: 's-bins',
       description: 'Customer relationship management system.',
-      tags: ['React', 'Node.js', 'MongoDB', 'CSS tailwind'],
-      links: { github: 'https://github.com/Atshmuel/s-bin', demo: 'https://s-bins.duckdns.org' },
+      tags: ['React', 'Node.js', 'SQL', 'CSS'],
+      links: { github: 'https://github.com/Nerya253/Blood-Pressure-Monitoring', demo: 'http://bpm-nerya.duckdns.org:8090' },
       status: 'done',
     },
     {
       title: 'CRM system',
       description: 'Smart locker rental system for tools and gardening equipment.',
-      tags: ['React', 'Node.js', 'MongoDB', 'ESP8266'],
+      tags: ['React', 'Node.js', 'MongoDB'],
       links: { github: 'https://github.com/Nerya253/CRM', demo: 'http://crm-nerya.duckdns.org:8081' },
       status: 'done',
     },
