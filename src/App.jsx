@@ -65,7 +65,7 @@ const portfolioData = {
       title: 's-bins',
       description: 'Customer relationship management system.',
       tags: ['React', 'Node.js', 'SQL', 'CSS'],
-      links: { github: 'https://github.com/Nerya253/Blood-Pressure-Monitoring', demo: 'http://bpm-nerya.duckdns.org:8090' },
+      links: { github: 'https://github.com/Nerya253/memory-game', demo: 'http://memory-nerya.duckdns.org:8090' },
       status: 'done',
     },
     {
