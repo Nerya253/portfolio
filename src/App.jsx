@@ -62,9 +62,9 @@ const portfolioData = {
 
   projects: [
     {
-      title: 's-bins',
-      description: 'Customer relationship management system.',
-      tags: ['React', 'Node.js', 'SQL', 'CSS'],
+      title: 'memory-game',
+      description: 'A fun and interactive memory game',
+      tags: ['html', 'CSS', 'javascript'],
       links: { github: 'https://github.com/Nerya253/memory-game', demo: 'http://memory-nerya.duckdns.org:8090' },
       status: 'done',
     },
