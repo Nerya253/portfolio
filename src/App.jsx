@@ -211,8 +211,8 @@ function App() {
             <Button
               variant="contained"
               color="primary"
-              href="/cv.pdf"
-              download="Nerya_Levi_CV.pdf"
+              href="/portfolio/public/Nerya_Levi_Resume.pdf"
+              download="Nerya_Levi_Resume.pdf"
               startIcon={<Download />}
               sx={{ mx: 1, borderRadius: 50, fontWeight: 'bold' }}
             >
