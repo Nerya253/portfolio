@@ -166,7 +166,7 @@ function App() {
         <ListItem disablePadding>
           <ListItemButton
             component="a"
-            href="/portfolio/public/Nerya_Levi_Resume.pdf"
+            href="../public/Nerya_Levi_Resume.pdf"
             download="Nerya_Levi_Resume.pdf"
             sx={{ textAlign: 'center', color: 'primary.main' }}
           >
@@ -211,7 +211,7 @@ function App() {
             <Button
               variant="contained"
               color="primary"
-              href="/portfolio/public/Nerya_Levi_Resume.pdf"
+              href="../public/Nerya_Levi_Resume.pdf"
               download="Nerya_Levi_Resume.pdf"
               startIcon={<Download />}
               sx={{ mx: 1, borderRadius: 50, fontWeight: 'bold' }}
