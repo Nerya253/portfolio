@@ -53,7 +53,7 @@ const portfolioData = {
     { name: 'React & JavaScript', icon: <Language /> },
     { name: 'Node.js', icon: <Storage /> },
     { name: 'RBAC', icon: <Code /> },
-    // { name: 'Python (Basics)', icon: <Code /> },
+    { name: 'Python (Basics)', icon: <Code /> },
     { name: 'QA & Testing', icon: <BugReport /> },
     { name: 'SQL & MongoDB', icon: <Storage /> },
     { name: 'C# / .NET', icon: <Code /> },
@@ -164,7 +164,12 @@ function App() {
           </ListItem>
         ))}
         <ListItem disablePadding>
-          <ListItemButton component="a" href="/cv.pdf" download="Nerya_Levi_CV.pdf" sx={{ textAlign: 'center', color: 'primary.main' }}>
+          <ListItemButton
+            component="a"
+            href="/portfolio/public/Nerya_Levi.pdf"
+            download="Nerya_Levi_Resume.pdf"
+            sx={{ textAlign: 'center', color: 'primary.main' }}
+          >
             <Download sx={{ mr: 1 }} />
             <ListItemText primary="Download Resume" />
           </ListItemButton>
